@@ -1,0 +1,86 @@
+body  {
+    background-color: lightpink;
+    
+}
+ 
+
+div.wrap {
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 400px;
+    height: 90vh;
+    border: 2px solid white;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background-color: lightpink;
+    border: 2px solid white ;
+    padding: 5px 15px;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* display: block; */
+    transition: 0.3s linear;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.main {
+    margin-left: 15px;
+}
+
+button.delete {
+    margin-left: 10px;
+    /* height: 30px; */
+    /* display: block; */
+    /* background-color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.task  h1 button{
+    color: white;
+}
+
+span {
+    display: block;
+    margin: auto;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    padding: 15px 0;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+h1.title {
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    margin: auto;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.input {
+    margin: 15px auto;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        
+      
+}
+
+div.input input {
+    border-radius:6px ;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+
+}
+div.input button {
+    font-size: 25px;
+    color: white;
+}
